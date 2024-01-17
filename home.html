@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Travel Budy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/logo.jpg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top " id="navbar">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" id="logo">
+                <img src="image/logo.jpg" alt="Avatar Logo" style="width:60px;" class="rounded-pill"> <span>  Travel</span> Budy </a>
+              
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="#book">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#packages">packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#gallary">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="home">
+        <div class="content">
+            <h5>Welcome to World</h5>
+            <h1>visit<span class="changecontent"></span></h1>
+            <p>One Earth, One Family, One Future</p>
+            <a href="#book">Book Your Destination 
+            
+            </a>
+        </div>
+
+      </div>
+
+      <section class="book" id="book">
+        <div class="container">
+
+            <div class="main-text" id="booktext" style="text-align: center;">
+                <h1><span>B</span>ook</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0" >
+                    <div class="card">
+                        <img src="image/home.jpg" style="height: 458px;"> 
+                    </div>
+                 </div>
+
+
+                 <div class="col-md-6 py-3 py-md-0">
+                    <div class="card">
+                    
+                        <form action="https://api.web3forms.com/submit" method="POST" class="content" id="content-text">
+                            <input type="hidden" name="access_key" value="124ff671-830d-4b31-b325-7810c7ffd8ff">
+
+                            <label for="fname">Where To:</label>
+                            <br>
+                            <input type="text" id="fname" name="fname" value="">
+
+                            <br>
+                            <label for="fname">Name:</label>
+                            <br>
+                            <input type="text" id="fname" name="fname" value="">
+
+                            <br>
+
+                            <label for="lname">No.Of Person:</label>
+                            <br>
+                            <select id="dropdown">
+                                <option value="">How many</option>
+                                <option value="1"> 1</option>
+                                <option value="2"> 2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                
+
+                            <br>
+                            <label for="phone">Enter Contact number:</label><br>
+  <input type="tel" id="phone" name="phone" placeholder="1234-56-7890" pattern="[0-9]{4}-[0-9]{2}-[0-9]{4}" required><br>
+  
+  
+
+                            <label for="date">From:</label>
+                            <br>
+                            
+                            <input type="date" id="date" name="date" value="">
+                            <br>
+
+                            <label for="date">To:</label>
+                            <br>
+                            
+                            <input type="date" id="date" name="date" value="">
+                            <p><h3>Please select your <b style="color: red;">Gender</b></h3></p>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male"> Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female"> Female</label>
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other"> Other</label>
+                            <br><br>
+                            <div class="button">
+                    <input type="submit" value="Submit" style="background: orange; color: white; border-radius: 5px; letter-spacing: 2px; border: none;padding: 10px 25px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 13px;
+                    padding-bottom: 10px; ">
+                    </div>
+                        
+                    </form>
+                </div>
+    
+                </div>
+            </div>
+        </div>
+      </section>
+
+
+      <section class="packages" id="packages">
+        <div class="container">
+
+            <div class="main-text">
+                <h1><span style="color: rgb(255, 38, 0);">P</span>ackages</h1>
+            </div>
+
+            <div class="row" style="margin-top: 50px;">
+            
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="image/london.jpg" style="border-radius: 5px;">
+                        <div class="card-body">
+                            <h3 style="font-weight: 500; font-size: 25px;">United Kingdom</h3>
+                            <p>Take only memories, leave only footprints</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$500</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="image/thailand.jpg" style="border-radius: 5px;">
+                        <div class="card-body">
+                            <h3 style="font-weight: 500; font-size: 25px;">Thailand</h3>
+                            <p>Take only memories, leave only footprints</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$300</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="image/france.jpg" style="border-radius: 5px;">
+                        <div class="card-body">
+                            <h3 style="font-weight: 500; font-size: 25px;">France</h3>
+                            <p>Take only memories, leave only footprints</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$450</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="image/bali.jpg" style="border-radius: 5px;">
+                        <div class="card-body">
+                            <h3 style="font-weight: 500; font-size: 25px;">Bali</h3>
+                            <p>Take only memories, leave only footprints</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$200</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="image/nepal.jpg" style="border-radius: 5px;">
+                        <div class="card-body">
+                            <h3 style="font-weight: 500; font-size: 25px;">Nepal</h3>
+                            <p>Take only memories, leave only footprints</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$100</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="image/japan.jpg" style="border-radius: 5px;">
+                        <div class="card-body">
+                            <h3 style="font-weight: 500; font-size: 25px;">Japan</h3>
+                            <p>Take only memories, leave only footprints</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>Price: <strong>$250</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            
+         </div>
+      </section>
+
+
+      <section class="Services" id="Services">
+        <div class="container">
+             
+            <div class="main-text">
+                <h1><span style="color:orangered;">S</span>ervices</h1>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card" style="box-shadow: 0px 5px 5px 3px black;
+                    border: none;
+                    cursor: pointer;
+                    margin-bottom: 10px;">
+                        <i class="fas fa-hotel" style="text-align: center; color: orange; font-size: 60px;"></i>
+                        <div class="card-body">
+                            <h3 style="text-align: center;">Affordable Hotel</h3>
+                            <p>Best Price Guarantee- Choose From a Wide Range of Properties</p>
+                        </div>
+                    
+                        
+                    </div>
+                </div>
+            
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card" style="box-shadow: 0px 5px 5px 3px black;
+                    border: none;
+                    cursor: pointer;">
+                        <i class="fa-solid fa-utensils" style="text-align: center; color: orange; font-size: 60px;"></i>
+                        <div class="card-body">
+                            <h3 style="text-align: center;">Food & Drinks</h3>
+                            <p>mix of contemporary and nostalgic favorites. Choose from Bengali, modern Indian</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card" style="box-shadow: 0px 5px 5px 3px black;
+                    border: none;
+                    cursor: pointer;">
+                        <i class="fa-solid fa-truck-plane" style="text-align: center; color: orange; font-size: 60px;"></i>
+                        <div class="card-body">
+                            <h3 style="text-align: center;">Fastest Travel</h3>
+                            <p>mix of contemporary and nostalgic favorites. Choose from Bengali, modern Indian</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card" style="box-shadow: 0px 5px 5px 3px black;
+                    border: none;
+                    cursor: pointer;">
+                        <i class="fa-solid fa-shield" style="text-align: center; color: orange; font-size: 60px;"></i>
+                        <div class="card-body">
+                            <h3 style="text-align: center;">Safety Guide</h3>
+                            <p>mix of contemporary and nostalgic favorites. Choose from Bengali, modern Indian</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card" style="box-shadow: 0px 5px 5px 3px black;
+                    border: none;
+                    cursor: pointer;">
+                        <i class="fa-solid fa-person-walking-luggage" style="text-align: center; color: orange; font-size: 60px;"></i>
+                        <div class="card-body">
+                            <h3 style="text-align: center;">Advanture</h3>
+                            <p>mix of contemporary and nostalgic favorites. Choose from Bengali, modern Indian</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card" style="box-shadow: 0px 5px 5px 3px black;
+                    border: none;
+                    cursor: pointer;">
+                        <i class="fa-solid fa-globe" style="text-align: center; color: orange; font-size: 60px;"></i>
+                        <div class="card-body">
+                            <h3 style="text-align: center;">Around The World</h3>
+                            <p>mix of contemporary and nostalgic favorites. Choose from whatever you want.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+            </div>
+
+        </div>
+
+      </section>
+
+
+      <section class="gallary" id="gallary">
+        <div class="container">
+
+            <div class="main-text">
+                <h1><span style="color:orangered;">G</span>allary</h1>
+            </div>
+
+            <div class="row" style="margin-top: 30px;">
+            
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card" style="box-shadow: 0px 5px 5px 3px black;
+                border: none;
+                cursor: pointer;">
+                <img src="image/download1.jpg">
+            
+            </div>
+
+            </div>
+            
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card" style="box-shadow: 0px 5px 5px 3px black;
+                border: none;
+                cursor: pointer;">
+                <img src="image/dwnld3.webp">
+            
+            </div>
+
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card" style="box-shadow: 0px 5px 5px 3px black;
+                border: none;
+                cursor: pointer;">
+                <img src="image/dwnld4.webp">
+            
+            </div>
+
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card" style="box-shadow: 0px 5px 5px 3px black;
+                border: none;
+                cursor: pointer;">
+                <img src="image/pakistan.jpg">
+            
+            </div>
+
+            </div>
+            
+
+            
+            
+
+            </div>
+        </div>
+      </section>
+
+
+      <section class="about" id="about">
+
+        <div class=" container">
+
+            <div class="main-text" style="padding: 20px;">
+                <h1><span style="color:orangered;">A</span>bout</h1>
+            </div>
+            <div class="text" style="background-color: rgb(169, 224, 238);">
+                <p><img src="image/logo.jpg" style="float: left; padding-top: 0px; height: 313px;">
+                    Are you looking for a holiday and want to make it hassle free? We at Himalchura Travels and Tours can guide you to a vacation that you will enjoy and cherish. 
+
+                    Himalchura is a renowned Travels and tour company operating almost through out India since 1996.Our long experiance in tourism and affilation from  State Tourism Department has earned  thousands of travel enthusiasts.Our clients believe us and know that they will get the best travel deal from Himalchura.
+          <br>Travel makes us wealthier. We see new places, meet new people, and indulge in new activities. The experiences make us different people. Traveling isn't merely about stepping foot on a landmark, but also inhaling the essence of the very place.
+               <br><br><strong> Our Address :-</strong><br>
+               179A/1A,M.M.Road Kankurgachi Kolkata West Bengal, 700054
+               <br>
+               Contact No.- 9679040678<br>We see new places, meet new people, and indulge in new activities. The experiences make us Differnt
+               
+               
+        </p>
+                </div>
+
+        </div>
+      </section>
+
+
+
+      <section class="contact" id="contact">
+        <div class="container" style="background-color: white;">
+            <h1 style="text-shadow: 0px 1px 1px black; font-weight: 600; "><span style="color: orangered;">C</span>ontact :
+                <p  style="padding-left: 180px; font-size: large;">9670768765</p>
+            </h1>
+            
+
+        </div>
+
+        
+      </section>
+      <section>
+    
+    <div class="last" >
+        <a class="home" href="home.html" style="background-color: aquamarine;">Back to Home Page</a>
+    </div>
+</section>
+
+
+
+
+      <footer class="bg-body-tertiary text-center" style="margin-top: 25px;">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgb(250, 194, 10);">
+          © 2020 Copyright:
+          <a class="text-body" href="#home" style="text-decoration: none;"><b style="color: red;"> Travel</b> Budy</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

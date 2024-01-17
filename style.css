@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+#navbar{
+    background-color: rgb(241, 216, 216);
+}
+
+#logo{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: yellowgreen;
+
+}
+.navbar-nav{
+    margin-right: 35px;
+}
+.nav-item .nav-link{
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-item .nav-link:hover{
+    background: rgba(255, 166, 0, 0.623);
+    color: white;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.199)), url(image/home3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+
+}
+.home .content h5{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+
+}
+.changecontent::after{
+content: ' ';
+color: orange;
+text-shadow: 0px 1px 1px black;
+animation: changetxt 5s infinite linear;
+}
+@keyframes changetxt{
+    0%{content: " France";}
+    20%{content: " Mexico";}
+    40%{content: " Italy";}
+    60%{content: " Russia";}
+    80%{content: " Japan";}
+    100%{content: " China";}
+}
+
+
+
+.home .content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+
+}
+.home .content a{
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 650;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+.home .content a:hover{
+    background-color: rgba(255, 166, 0, 0.685);
+    color: white;
+}
+#booktext h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 25px;
+    margin-top: 58px;
+    letter-spacing: 1.5px;
+}
+#booktext span{
+    color: orangered;
+    text-shadow: 0px 1px 1px black;
+}
+.book .card{
+    box-shadow: 0px 3px 3px 5px black;
+}
+#content-text{
+    font-weight: 500;
+    padding-left: 30px;
+    background-color: rgb(218, 218, 243);
+    
+}
+#content-text .button{
+    padding-left: 180px;
+}
+
+/*pachages*/
+.main-text h1{
+    text-align: center;
+    margin-top: 35px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 12px black ;
+}
+.checked{
+    color: rgb(255, 208, 0);
+}
+.packages .card .card-body a{
+     padding: 10px;
+     text-decoration: none;
+     border-radius: 5px;
+     background: rgb(255, 187, 0);
+     color: white;
+}
+
+
+/*services*/
+#services .card{
+    box-shadow: 0px 5px 5px 3px black;
+    border: none;
+    cursor: pointer;
+
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 166, 0);
+}
+
+.last{
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    color: brown;
+}
+
